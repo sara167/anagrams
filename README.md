@@ -7,11 +7,13 @@ For example, the following nine words: rates, pots, tops, along, aster, stop, st
 
 
 **Input**
+
 Your program will be tested on a number of test cases. The first line of the input file ("anagram.in") contains an integer D representing the number of test cases in the input file.
 Each test case contains one or more words, but no more than 20000 words, with no duplicates. Each word appears on a separate line. All words are in small letters, and in no particular order. No word will be longer than 10 characters. Each test case ends with a string made of one or more '-' characters.
 
 
 **Output**
+
 For each test case, write, on a separate line, the length (number of words) of the longest anagram chain found in the given list of words. 
 The output should be printed to the screen.
 
@@ -19,9 +21,9 @@ The output should be printed to the screen.
 Sample Input 									
 ```
 2
-rates																
+rates				
 pots
-tops																
+tops				
 along
 aster
 stop
