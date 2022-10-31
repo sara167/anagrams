@@ -50,26 +50,7 @@ public class p2 {
         return max;
     }
 
-//    public static int getMax(ArrayList<String> list) {
-//        int max = 0;
-//        ArrayList<String> table = new ArrayList();
-//        for (int i = 0; i < list.size(); i++) {
-//            String word = list.get(i);
-//            if (table.contains(word) == false) {
-//                int count=0;
-//                table.add(word);
-//                for (int j = 0; j < list.size(); j++) {
-//                    if (list.get(j).equals(word)) {
-//                        count++;
-//                    }
-//                }
-//                if (count > max) {
-//                    max = count;
-//                }
-//            }
-//        }
-//        return max;
-//    }
+
     public static void main(String[] args) throws FileNotFoundException {
         Scanner inFile = new Scanner(new FileReader("anagram.in"));
         int n = inFile.nextInt();
